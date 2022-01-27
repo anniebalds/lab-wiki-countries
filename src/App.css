@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +36,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.lilimg {
+  width: 2em
+}
+
+.list-group-item {
+  height: 100px;
+}
+
+.container, .row {
+  display: flex;
+  flex-direction: row;
+}
+
+.maincontainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainlist {
+  max-height: 90vh; 
+  width: 40vw;
+  overflow: scroll
+}
+
+img {
+  width: 300px
+}
+
+.onecountry {
+  width: 40vw;
+
+}
+
+
+
+h1, h2 {
+  padding: 8px;
 }
